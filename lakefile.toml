@@ -1,0 +1,30 @@
+# Kunerth.lean - translation of Prof. Adolf Kunerth's works into Lean.
+#
+# Written in 2026 by Kirill A. Korinsky <kirill@korins.ky>
+#
+# This work is released into the public domain with CC0 1.0.
+
+name = "kunerth"
+version = "0.1.0"
+defaultTargets = [
+  "Kunerth_1877_Neue_Methoden",
+  "Kunerth_1878a_Rational_Method",
+  "Kunerth_1878b_Modular_Congruences",
+  "Kunerth_1880_Integer_Generalization"
+]
+
+[[lean_lib]]
+name = "Kunerth_1877_Neue_Methoden"
+globs = ["Kunerth_1877_Neue_Methoden.+"]
+
+[[lean_lib]]
+name = "Kunerth_1878a_Rational_Method"
+globs = ["Kunerth_1878a_Rational_Method.+"]
+
+[[lean_lib]]
+name = "Kunerth_1878b_Modular_Congruences"
+globs = ["Kunerth_1878b_Modular_Congruences.+"]
+
+[[lean_lib]]
+name = "Kunerth_1880_Integer_Generalization"
+globs = ["Kunerth_1880_Integer_Generalization.+"]

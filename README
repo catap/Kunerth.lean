@@ -1,0 +1,39 @@
+This project translates Prof. Adolf Kunerth's work into Lean.
+
+It is based on the following manuscripts:
+
+- Neue Methoden zur Auflösung unbestimmter quadratischer Gleichungen in
+  ganzen Zahlen (1877), Sitzungsberichte der Kaiserlichen Akademie der
+  Wissenschaften in Wien, Band 75, Pages 7-58.
+- Praktische Methode zur numerischen Auflösung unbestimmter
+  quadratischer Gleichungen in rationalen Zahlen (1878),
+  Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften in Wien,
+  Band 78, Pages 327-337.
+- Numerische Auflösung quadratischer Congruenzen für jeden einfachen
+  Modul (1878), Sitzungsberichte der Kaiserlichen Akademie der
+  Wissenschaften in Wien, Band 78, Pages 338-346.
+- Berechnung der ganzzahligen Wurzeln unbestimmter quadratischer
+  Gleichungen mit zwei Unbekannten aus den für letztere gefundenen
+  Brüchen, nebst den Kriterien der Unmöglichkeit einer solchen Lösung
+  (1880), Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften
+  in Wien, Band 82, Pages 342-375.
+
+Digitized scans are available from:
+ - ÖAW: https://www.oeaw.ac.at/
+ - MDZ: https://www.digitale-sammlungen.de/
+ - Google Books: https://books.google.de/
+
+Each manuscript was transcribed with OCR and cross checked against all
+three sources.
+
+Typographical errors remain; other errors are possible.
+
+The source files interleave the relevant manuscript text with Lean.
+
+The goal is fidelity to Kunerth's work with minimal corrections;
+identified typographical errors are explicitly marked.
+
+The manuscript text remains in German; my English reconstruction is at:
+https://kirill.korins.ky/articles/kunerths-algorithm-for-modular-square-roots-a-forgotten-method/
+
+Enjoy.
